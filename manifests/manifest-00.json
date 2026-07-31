@@ -1,7 +1,10 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
+
   "id": "https://normanfellows.github.io/scrapbook-viewer/manifests/manifest-00.json",
+
   "type": "Manifest",
+
   "label": {
     "en": [
       "Manifest 00 — First Object"
@@ -9,35 +12,50 @@
   },
 
   "items": [
-  {
-    "id": "https://normanfellows.github.io/scrapbook-viewer/manifests/canvas-01",
-    "type": "Canvas",
-    "label": {
-      "en": [
-        "Canvas 01"
+    {
+      "id": "https://normanfellows.github.io/scrapbook-viewer/manifests/canvas-01",
+
+      "type": "Canvas",
+
+      "label": {
+        "en": [
+          "Canvas 01"
+        ]
+      },
+
+      "width": 1771,
+      "height": 1138,
+
+      "items": [
+        {
+          "id": "https://normanfellows.github.io/scrapbook-viewer/manifests/page-01",
+
+          "type": "AnnotationPage",
+
+          "items": [
+            {
+              "id": "https://normanfellows.github.io/scrapbook-viewer/manifests/annotation-01",
+
+              "type": "Annotation",
+
+              "motivation": "painting",
+
+              "body": {
+                "id": "https://normanfellows.github.io/scrapbook-viewer/images/test-image.jpg",
+
+                "type": "Image",
+
+                "format": "image/jpeg",
+
+                "width": 1771,
+                "height": 1138
+              },
+
+              "target": "https://normanfellows.github.io/scrapbook-viewer/manifests/canvas-01"
+            }
+          ]
+        }
       ]
-    },
-    "height": 1000,
-    "width": 1000,
-
-    "items": [
-  {
-    "id": "https://normanfellows.github.io/scrapbook-viewer/manifests/page-01",
-    "type": "AnnotationPage",
-
-    "items": [
-  {
-    "id": "https://normanfellows.github.io/scrapbook-viewer/manifests/annotation-01",
-    "type": "Annotation",
-    "motivation": "painting",
-
-    "body": {
-
-    },
-
-    "target": "https://normanfellows.github.io/scrapbook-viewer/manifests/canvas-01"
-  }
-]
-  }
-]
+    }
+  ]
 }
