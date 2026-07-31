@@ -1,1 +1,15 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://normanfellows.github.io/scrapbook-viewer/manifests/manifest-00.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Manifest 00 — First Object"
+    ]
+  },
 
+  "items": [
+
+  ]
+
+}
