@@ -21,6 +21,11 @@
     "width": 1000,
 
     "items": [
+  {
+    "id": "https://normanfellows.github.io/scrapbook-viewer/manifests/page-01",
+    "type": "AnnotationPage",
+
+    "items": [
 
     ]
   }
