@@ -3,7 +3,10 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log("Scrapbook Viewer Version 0.2");
 
     Mirador.viewer({
-        id: "viewer-stage"
-    });
-
-});
+    id: "viewer-stage",
+    windows: [
+        {
+            manifestId: "https://normanfellows.github.io/scrapbook-viewer/manifests/manifest-00.json"
+        }
+    ]
+});;
